@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@media (min-width: 360px) {
+  body {
+    font-size: 1.0em;
+  }
+}
+
+@media (max-width: 879px) {
+  /* http://meyerweb.com/eric/tools/css/reset/
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+  	display: block;
+  }
+  body {
+  	line-height: 1;
+  }
+  ol, ul {
+  	list-style: none;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
+  /*==================================
+           UNIFORM STYLES
+  ===================================*/
+  body {
+    /*background: #000;*/
+    color: #FFF;
+    /* font: 12px/22px; */
+    padding: 0;
+    margin: 0;
+  	line-height: 1;
+
+  }
+
+  * {
+  	box-sizing:border-box;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  	letter-spacing: 7px;
+  	line-height: 1.2em;
+  }
+  h2 {
+    font-size: 22px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  	margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  p {
+    font: 12px/22px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  	margin: 10px;
+  	font-weight: 300;
+  }
+  li {
+    font: 12px/22px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+  }
+
+  a {
+  	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  	text-decoration: none;
+  	vertical-align: top;
+  	cursor: pointer;
+  	color: inherit;
+  }
+
+  /*==================================
+               SIDE PANEL
+  ===================================*/
+
+
+  #side-panel {
+    width: 100%;
+  	margin: auto;
+  	height: 140px;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 1001;
+    display: block;
+    position: fixed;
+  	text-align: center;
+  	background: rgba(0,0,0,0.4);
+    padding: 1.5em;
+    padding-top:40px;
+    float: none;
+    /*overflow: hidden;*/
+  }
+
+  #sub-head-1{
+  	margin-bottom: 0px;
+    font-size: 22px;
+  }
+  #sub-head-2 {
+  	margin-bottom: 14px;
+    letter-spacing: 3px;
+  }
+  #side-panel #logo h4 {
+  	font-size: 14px;
+  	font-weight: 400;
+  	line-height: 16px;
+  	text-transform: uppercase;
+  }
+
+   #desktop {
+    display: none;
+  }
+
+  #side-panel #nav #mobile li{
+      margin: 2px;
+      display: inline-block;
+  }
+
+
+  #side-panel #nav #mobile li span {
+      width: 26px;
+      margin-left: 3px;
+      margin-right: 4px;
+      display: inline-block;
+      min-width: 21px;
+      min-height: 17px;
+
+  }
+
+  #side-panel #nav #mobile .nav_1 span {
+    height: 22px;
+  	background: url("../img/news.svg") right bottom no-repeat;
+  }
+
+  #side-panel #nav #mobile .nav_2 span {
+    height: 22px;
+  	background: url("../img/sound-mix.svg") right bottom no-repeat;
+  }
+
+  #side-panel #nav #mobile .nav_3 span {
+    height: 22px;
+  	background: url("../img/documents.svg") right bottom no-repeat;
+  }
+
+  #side-panel #nav #mobile .nav_4 span {
+    height: 22px;
+  	background: url("../img/back-in-time.svg") right bottom no-repeat;
+  }
+
+  #side-panel #nav #mobile .nav_5 span {
+    height: 22px;
+  	background: url("../img/laptop.svg") right bottom no-repeat;
+  }
+
+  #side-panel #nav #mobile .nav_6 span {
+    height: 22px;
+  	background: url("../img/chat.svg") right bottom no-repeat;
+  }
+
+  /*==================================
+                MAIN
+  ===================================*/
+  #main {
+    width: 100%;
+    display: block;
+    float: none;
+  	text-align: center;
+  }
+
+  #pic{
+    margin-top: 150px;
+    margin-bottom: 0;
+    max-width: 100%;
+    width: 100%;
+ }
+  #main .panel {
+    width: 100%;
+  	margin-top: 100px;
+    padding-top: 15px;
+    position: relative;
+  	background: rgba(0,0,0,0.1);
+  }
+
+  .box {
+  padding: 45px 0 45px 0;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+
+  }
+
+  #bio p {
+  	text-align: left;
+  	font-size: 12px;
+  	letter-spacing: 1px;
+  	line-height: 28px;
+
+  }
+
+  #work p {
+  		text-align: left;
+  		font-size: 13px;
+  		letter-spacing: 1px;
+  		line-height: 24px;
+  	}
+
+
+  	#training h4 {
+  		text-align: center;
+  		font-size: 14px;
+  		letter-spacing: 1px;
+  		line-height: 28px;
+  	}
+  	#education h4 {
+  		text-align: center;
+  		font-size: 14px;
+  		letter-spacing: 1px;
+  		line-height: 28px;
+  	}
+
+  	#education p {
+  		text-align: center;
+  		font-size: 13px;
+  		letter-spacing: 1px;
+  		line-height: 24px;
+  	}
+
+  	#training p {
+  		text-align: center;
+  		font-size: 13px;
+  		letter-spacing: 1px;
+  		line-height: 24px;
+  	}
+
+    .contact{
+      height: 200px;
+      margin-bottom: 0px;
+      position: relative;
+      text-align: center;
+      padding: 25px 0 10px 0;
+    }
+
+  	#contact p {
+  		text-align: center;
+  		font-size: 14px;
+  		letter-spacing: 1px;
+  		line-height: 24px;
+  	}
+
+    #main .panel .box a span{
+  		margin-left:20%;
+  		width: 36px;
+  		float: left;
+  	}
+
+    .skills{
+    	width: 90%;
+    	height: 30px;
+    	background-color: #424545;
+    	border-radius: 3px;
+    	margin-left: 2%;
+    }
+
+
+  #skills p {
+  	text-align: left;
+  	font-size: 13px;
+  	letter-spacing: 2px;
+  	line-height: 26px;
+  	margin-left: 2%;
+    font-weight: 500;
+  }
+
+  #portfolio h4  {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+  #portfolio h3  {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding-right: 25px;
+  }
+  #portfolio {
+    padding: 0;
+
+  }
+
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+
+  .info {
+    width: 250px;
+    margin: 0 auto;
+    text-transform: none;
+  }
+
+  .info h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+ .info p {
+   text-align: left;
+   margin-left: 0;
+   font-size: 14px;
+ }
+
+  #portfolio ul li {
+    margin: 5% 0;
+  }
+
+  #portfolio ul li a img {
+	width: 250px;
+}
+
+
+  #accordion {
+
+    font-weight: 400;
+  	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+
+  .bar{
+  	text-align: right;
+  	padding-right: 5%;
+  	line-height: 30px;
+  	border-radius: 3px;
+  	margin-left: 2%inherit;;
+  	color: #FFF;
+  	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  	width: 0%;
+  }
+
+
+  .sub {
+  	text-align: center;
+  	margin-bottom: 24px;
+    font-weight: 500;
+    margin-top:46px;
+  }
+
+  .email span {
+   height: 33px;
+   background: url("../img/mail-with-circle.svg") right bottom no-repeat;
+ }
+
+   .linkedin span {
+    height: 33px;
+    background: url("../img/linkedin1.svg") right bottom no-repeat;
+
+  }
+  .git span {
+   height: 33px;
+   background: url("../img/github1.svg") right bottom no-repeat;
+  }
+
+  .jump {
+  	color: #fff;
+  	padding: 10px;
+  	text-align: center;
+  	font-size: 10px;
+  	position: fixed;
+  	bottom: 30px;
+  	right: 30px;
+  	background: rgba(0,0,0,0.5) repeat;
+    text-transform: uppercase;
+  	box-shadow: 0px 1px 7px 0px rgba(00, 00, 00, .7);
+  }
+
+
+
+  html {
+  	background-color: #a1c6e2;
+  }
+
+  img {
+  	max-width: 100%;
+  }
+
+
+}
