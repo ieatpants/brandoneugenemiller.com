@@ -313,7 +313,7 @@ a {
 	font-size: 15px;
 	letter-spacing: 2px;
 	line-height: 26px;
-	margin-left: 2%;
+	margin-left: 5%;
 	font-weight: 500;
 }
 
@@ -358,7 +358,7 @@ a {
 	padding-right: 5%;
 	line-height: 30px;
 	border-radius: 3px;
-	margin-left: 2%inherit;;
+	/*margin-left: 2%inherit;;*/
 	color: #FFF;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-weight: 500;
