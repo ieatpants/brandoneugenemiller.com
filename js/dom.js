@@ -88,7 +88,7 @@ $(window).scroll(function(){
                 width:$(this).attr('data-percent')
               },2200);
             });
-          /}
+          //}
           });
 
                     /* light box */
