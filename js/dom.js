@@ -76,20 +76,21 @@ $(window).scroll(function(){
 
                     /* skills bar */
 
-          var skillsDiv = $('#skills');
-
-          $(window).on('load', function() {
+          window.addEventListener("scroll", Animation);
+          var skillsDiv = $('.skills');
+          //$(window).on('load', function() {
+          function Animation() {
           var winT = $(window).scrollTop(),
             winH = $(window).height(),
             skillsT = skillsDiv.offset().top;
-          //if (winT + winH > skillsT) {
+          if (winT + winH > skillsT) {
             $('.skills').each(function(){
               $(this).find('.bar').animate({
                 width:$(this).attr('data-percent')
               },2200);
             });
-          //}
-          });
+          }
+          };
 
                     /* light box */
 
