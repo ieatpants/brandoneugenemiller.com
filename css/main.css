@@ -25,22 +25,25 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -50,14 +53,14 @@ table {
 }
 
 /*==================================
-         UNIFORM STYLES
+		 UNIFORM STYLES
 ===================================*/
 body {
-  background: #000;
-  color: #FFF;
-  font: 12px/22px;
-  padding: 0;
-  margin: 0;
+	background: #000;
+	color: #FFF;
+	font: 12px/22px;
+	padding: 0;
+	margin: 0;
 	line-height: 1;
 }
 
@@ -66,48 +69,50 @@ body {
 }
 
 h1 {
-  font-size: 36px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+	font-size: 36px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
 	letter-spacing: 7px;
 	line-height: 1.2em;
 }
+
 h2 {
-  font-size: 22px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+	font-size: 22px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
 	margin-bottom: 20px;
 }
 
 h4 {
-  font-size: 16px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+	font-size: 16px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
 }
+
 p {
-  font: 12px/22px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font: 12px/22px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	margin: 10px;
 	font-weight: 300;
 }
+
 li {
-  font: 12px/22px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  margin: 20px;
+	font: 12px/22px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	margin: 20px;
 }
 
 a {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	text-decoration: none;
-	vertical-align: top;
 	cursor: pointer;
 	color: inherit;
 }
 
 
 /*==================================
-             SIDE PANEL
+			 SIDE PANEL
 ===================================*/
 
 #control {
@@ -116,24 +121,24 @@ a {
 }
 
 #side-panel {
-  width: 24%;
+	width: 24%;
 	margin: 0;
 	height: 100%;
-  /*display: inline-block;*/
-  position: fixed;
+	/*display: inline-block;*/
+	position: fixed;
 	text-align: right;
 	background: rgba(33,33,33,0.8);
-  padding: 78px 30px 0 30px;
-  float: right;
-
+	padding: 78px 30px 0 30px;
+	float: right;
 }
 
-#sub-head-1{
+#sub-head-1 {
 	margin-bottom: 22px;
 }
 #sub-head-2 {
 	margin-bottom: 45px;
 }
+
 #side-panel #logo h4 {
 	font-size: 16px;
 	font-weight: 400;
@@ -146,81 +151,79 @@ a {
 	display: none;
 }
 
-#side-panel #nav ul li{
-		font-size: 13px;
-		color: #FFF;
+#side-panel #nav ul li {
+	font-size: 13px;
+	color: #FFF;
 }
-
-
 
 #side-panel #nav ul li span {
-    width: 28px;
-    margin-left: 15px;
-		padding-bottom: 2px;
-    display: inline-block;
-		vertical-align: middle;
+	width: 28px;
+	margin-left: 15px;
+	padding-bottom: 2px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
-#side-panel #nav ul .nav_1 span {
-  height: 24px;
+#side-panel #nav ul .nav_aboutme span {
+	height: 24px;
 	background: url("../img/news.svg") right bottom no-repeat;
 }
 
-#side-panel #nav ul .nav_2 span {
-  height: 24px;
-	background: url("../img/sound-mix.svg") right bottom no-repeat;
-}
-
-#side-panel #nav ul .nav_3 span {
-  height: 24px;
+#side-panel #nav ul .nav_portfolio span {
+	height: 24px;
 	background: url("../img/documents.svg") right bottom no-repeat;
 }
 
-#side-panel #nav ul .nav_4 span {
-  height: 24px;
+#side-panel #nav ul .nav_skills span {
+	height: 24px;
+	background: url("../img/sound-mix.svg") right bottom no-repeat;
+}
+
+#side-panel #nav ul .nav_exp span {
+	height: 24px;
 	background: url("../img/back-in-time.svg") right bottom no-repeat;
 }
 
-#side-panel #nav ul .nav_5 span {
-  height: 24px;
+#side-panel #nav ul .nav_education span {
+	height: 24px;
 	background: url("../img/laptop.svg") right bottom no-repeat;
 }
 
-#side-panel #nav ul .nav_6 span {
-  height: 24px;
+#side-panel #nav ul .nav_contact span {
+	height: 24px;
 	background: url("../img/chat.svg") right bottom no-repeat;
 }
 
-
 /*==================================
-              MAIN
+			  MAIN
 ===================================*/
 #main {
-  width: 70%;
-  margin: 0;
-  /*display: inline-block;*/
-  float: right;
+	width: 70%;
+	margin: 0;
+	/*display: inline-block;*/
+	float: right;
 	text-align: left;
 }
 
-#pic {
+#aboutme {
 	margin-top:85px;
-  max-width: 100%;
+	max-width: 100%;
 }
+
 #main .panel {
-  width: 700px;
+	width: 700px;
 	margin-top: 32px;
-  padding: 0 30px;
-  position: relative;
+	padding: 0 30px;
+	position: relative;
 	background: rgba(33,33,33,0.8);
 }
 
 .box {
-max-width: 100%;
-padding: 50px 0 20px 0;
-margin-bottom: 10px;
-position: relative;
-text-align: left;
+	max-width: 100%;
+	padding: 50px 0 20px 0;
+	margin-bottom: 10px;
+	position: relative;
+	text-align: left;
 }
 
 .box {
@@ -235,75 +238,76 @@ text-align: left;
 }
 
 #work p {
-		text-align: justify;
-		font-size: 14px;
-		letter-spacing: 1px;
-		line-height: 28px;
-	}
+	text-align: justify;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 28px;
+}
 
-	#training h4 {
-		text-align: center;
-		font-size: 16px;
-		letter-spacing: 2px;
-		line-height: 28px;
-	}
-	#education h4 {
-		text-align: center;
-		font-size: 16px;
-		letter-spacing: 2px;
-		line-height: 28px;
-	}
+#training h4 {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 28px;
+}
 
-	#education p {
-		text-align: center;
-		font-size: 14px;
-		letter-spacing: 2px;
-		line-height: 28px;
-	}
+#education h4 {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 28px;
+}
 
-	#training p {
-		text-align: center;
-		font-size: 14px;
-		letter-spacing: 2px;
-		line-height: 28px;
-	}
+#education p {
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 28px;
+}
 
-	.contact{
-		height: 200px;
-		margin-bottom: 300px;
-		position: relative;
-		text-align: center;
-		padding: 25px 0 45px 0;
-	}
+#training p {
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 28px;
+}
 
-	#contact p {
-		text-align: center;
-		font-size: 14px;
-		letter-spacing: 2px;
-		line-height: 28px;
-	}
+.contact {
+	height: 200px;
+	margin-bottom: 300px;
+	position: relative;
+	text-align: center;
+	padding: 25px 0 45px 0;
+}
 
-	#main .panel .box a span{
-		margin-left: 20%;
-		width: 45px;
-		/*display: inline-block;*/
-		float: left;
-	}
+#contact p {
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 28px;
+}
 
-	.email span {
-	 height: 41px;
-	 background: url("../img/mail-with-circle.svg") right bottom no-repeat;
+#main .panel .box a span {
+	margin-left: 20%;
+	width: 45px;
+	/*display: inline-block;*/
+	float: left;
+}
+
+.email span {
+	height: 41px;
+	background: url("../img/mail-with-circle.svg") right bottom no-repeat;
  }
 
-	 .linkedin span {
-	  height: 41px;
-		background: url("../img/linkedin1.svg") right bottom no-repeat;
+ .linkedin span {
+	height: 41px;
+	background: url("../img/linkedin1.svg") right bottom no-repeat;
+}
 
-	}
-	.git span {
-	 height: 41px;
-	 background: url("../img/github1.svg") right bottom no-repeat;
-	}
+.git span {
+	height: 41px;
+	background: url("../img/github1.svg") right bottom no-repeat;
+}
 
 #skills p {
 	text-align: left;
@@ -331,18 +335,18 @@ text-align: left;
 }
 
 .info p {
- text-align: left;
- margin-left: 0;
- font-size: 14px;
+	text-align: left;
+	margin-left: 0;
+	font-size: 14px;
 }
 
 #accordion {
 	margin-left: 2%;
-  font-weight: 400;
+	font-weight: 400;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.skills{
+.skills {
 	width: 90%;
 	height: 30px;
 	background-color: #424545;
@@ -350,12 +354,12 @@ text-align: left;
 	margin-left: 2%;
 }
 
-.bar{
+.bar {
 	text-align: right;
 	padding-right: 5%;
 	line-height: 30px;
 	border-radius: 3px;
-	/*margin-left: 2%inherit;;*/
+	margin-left: 2%inherit;;
 	color: #FFF;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-weight: 500;
@@ -380,10 +384,10 @@ text-align: left;
 	bottom: 30px;
 	right: 30px;
 	background: rgba(33,33,33,0.8) repeat;
-  text-transform: uppercase;
+	text-transform: uppercase;
 	box-shadow: 0px 1px 7px 0px rgba(00, 00, 00, .7);
 }
-a.nav-active{
+a.nav-active {
 	color: #FFDAB9;
 }
 
@@ -398,21 +402,3 @@ html {
 img {
 	max-width: 100%;
 }
-
-/*===========================================
-                  experimental features
-===========================================*/
-/*#features {
-    visibility: hidden;
-    width: 120px;
-    color: #fff;
-    text-align: left;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-}
-
-.info:hover #features{
-    visibility: visible;
-}*/
