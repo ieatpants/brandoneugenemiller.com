@@ -170,32 +170,32 @@
 
   }
 
-  #side-panel #nav #mobile .nav_1 span {
+  #side-panel #nav #mobile .nav_bio span {
     height: 22px;
   	background: url("../img/news.svg") right bottom no-repeat;
   }
 
-  #side-panel #nav #mobile .nav_2 span {
+  #side-panel #nav #mobile .nav_skills span {
     height: 22px;
   	background: url("../img/sound-mix.svg") right bottom no-repeat;
   }
 
-  #side-panel #nav #mobile .nav_3 span {
+  #side-panel #nav #mobile .nav_portfolio span {
     height: 22px;
   	background: url("../img/documents.svg") right bottom no-repeat;
   }
 
-  #side-panel #nav #mobile .nav_4 span {
+  #side-panel #nav #mobile .nav_exp span {
     height: 22px;
   	background: url("../img/back-in-time.svg") right bottom no-repeat;
   }
 
-  #side-panel #nav #mobile .nav_5 span {
+  #side-panel #nav #mobile .nav_education span {
     height: 22px;
   	background: url("../img/laptop.svg") right bottom no-repeat;
   }
 
-  #side-panel #nav #mobile .nav_6 span {
+  #side-panel #nav #mobile .nav_contact span {
     height: 22px;
   	background: url("../img/chat.svg") right bottom no-repeat;
   }
